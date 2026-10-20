@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08090b">
+  <meta name="description" content="NEXORA MOBILE — smartfonlar olami. O'zbekistonda zamonaviy telefonlar va namunaviy demo katalog.">
+  <title>qozichoq— Texnologiya sen bilan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Asosiy mazmunga o'tish</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand-lockup" href="#home" aria-label="NEXORA MOBILE bosh sahifasi">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <span class="brand-name">NEXORA<span>MOBILE</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Asosiy navigatsiya">
+        <a href="#home">Bosh sahifa</a>
+        <a href="#catalog">Telefonlar</a>
+        <a href="#brands">Brendlar</a>
+        <a href="#deals">Chegirmalar</a>
+        <a href="#new">Yangi modellar</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button header-favorite" type="button" data-action="favorites" aria-label="Sevimlilar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21l7.8-7.5 1.1-1.1a5.5 5.5 0 0 0-.1-7.8Z"/></svg>
+          <span class="count-badge" id="favorite-count">0</span>
+        </button>
+        <button class="icon-button" type="button" data-action="cart" aria-label="Savatcha">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h2l2.2 11.1a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 1.9-1.5L22 7H6M10 20a.8.8 0 1 1-1.6 0 .8.8 0 0 1 1.6 0Zm9 0a.8.8 0 1 1-1.6 0 .8.8 0 0 1 1.6 0Z"/></svg>
+          <span class="count-badge" id="cart-count">0</span>
+        </button>
+        <button class="profile-button" type="button" data-action="auth" id="profile-button">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 21a8 8 0 0 0-16 0M12 13a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"/></svg>
+          <span>Kirish</span>
+        </button>
+        <button class="menu-toggle" type="button" aria-label="Menyuni ochish" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="#home">Bosh sahifa</a><a href="#catalog">Telefonlar</a><a href="#brands">Brendlar</a>
+      <a href="#deals">Chegirmalar</a><a href="#new">Yangi modellar</a>
+      <label class="mobile-search"><span class="sr-only">Telefon qidirish</span><input id="mobile-search" type="search" placeholder="Telefon qidirish..."></label>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="pulse-dot"></span> TEXNOLOGIYANING YANGI BOSQICHI</span>
+        <h1>Kelajak texnologiyasi <span>— bugun sen bilan.</span></h1>
+        <p>Dunyoning eng mashhur smartfonlari bir joyda. O'zingga mos telefonni top va tanla.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#catalog">Telefonlarni ko'rish <span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="#brands">Brendlarni ko'rish <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-proof"><div class="proof-avatars" aria-hidden="true"><i>N</i><i>✦</i><i>+</i></div><span><strong>Tanlash erkinligi</strong><br>Bir joyda, ko'plab brendlar</span></div>
+      </div>
+      <div class="hero-art" aria-label="Premium smartfonlar tasviri" role="img">
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <div class="hero-phone phone-back"><div class="phone-camera"></div><span class="phone-glow"></span></div>
+        <div class="hero-phone phone-front"><div class="phone-island"></div><div class="phone-screen-content"><span>NEXORA</span><b>01:28</b><i>SMART<br>CHOICE</i></div></div>
+        <div class="hero-float float-top"><span>✦</span> YANGI AVLOD</div>
+        <div class="hero-float float-bottom"><span class="float-dot"></span> Tanloving. Sening qoidang.</div>
+        <div class="hero-shadow"></div>
+      </div>
+      <div class="hero-bottom-line"><span>01 / 04</span><span class="line"></span><span>SMARTFONLAR, YANGICHA</span></div>
+    </section>
+
+    <section class="section-shell brands-section" id="brands">
+      <div class="section-heading heading-inline"><div><span class="eyebrow">SEN ISHONADIGAN NOMLAR</span><h2>Mashhur brendlar</h2></div><a class="text-link" href="#catalog">Barchasini ko'rish <span>↗</span></a></div>
+      <div class="brand-list" id="brand-list" aria-label="Telefon brendlari"></div>
+    </section>
+
+    <section class="section-shell product-section" id="popular">
+      <div class="section-heading"><div><span class="eyebrow">KO'PCHILIK TANLOVI</span><h2>Eng ko'p sotiladiganlar</h2><p>Ommabop smartfonlardan o'zingizga mosini toping.</p></div><div class="section-controls"><button class="round-arrow" type="button" data-scroll="#popular-grid" aria-label="Mahsulotlarni ko'rish">↗</button></div></div>
+      <div class="product-grid" id="popular-grid"></div>
+    </section>
+
+    <section class="new-showcase" id="new">
+      <div class="section-shell showcase-inner">
+        <div><span class="eyebrow">YANGI KELGANLAR</span><h2>Yangiliklar<br><em>kaftingda.</em></h2><p>Eng so'nggi avlod qurilmalari bilan tanishing.</p><a class="button button-light" href="#catalog" data-filter-new="true">Yangi modellar <span>↗</span></a></div>
+        <div class="showcase-device" aria-hidden="true"><div class="showcase-ring"></div><div class="showcase-phone"><div class="showcase-camera"></div><span>01</span></div><div class="showcase-caption">DESIGNED FOR<br>WHAT'S NEXT</div></div>
+      </div>
+    </section>
+
+    <section class="section-shell product-section" id="premium">
+      <div class="section-heading"><div><span class="eyebrow">CHEGARASIZ IMKONIYAT</span><h2>Premium tanlov</h2><p>Yuqori unumdorlik, ilg'or kamera va nafis dizayn.</p></div></div>
+      <div class="product-grid" id="premium-grid"></div>
+    </section>
+
+    <section class="section-shell deals-section" id="deals">
+      <div class="section-heading"><div><span class="eyebrow">QULAY FURSAT</span><h2>Chegirmadagi modellar</h2><p>Tanlangan modellarning namunaviy chegirma takliflari.</p></div><a class="text-link" href="#catalog" data-filter-discount="true">Barcha takliflar <span>↗</span></a></div>
+      <div class="product-grid" id="deals-grid"></div>
+    </section>
+
+    <section class="section-shell catalog-section" id="catalog">
+      <div class="section-heading"><div><span class="eyebrow">KATALOGNI O'RGANING</span><h2>O'zingizga mosini toping</h2><p class="sample-note">Katalog, tavsiflar va narxlar tanishish uchun berilgan demo namunalar; real bozor taklifi yoki do'kon zaxirasi emas.</p></div></div>
+      <div class="catalog-toolbar">
+        <label class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/></svg><span class="sr-only">Telefon yoki brend bo'yicha qidirish</span><input id="search-input" type="search" placeholder="Model yoki brendni qidiring..." autocomplete="off"></label>
+        <button class="filter-toggle" type="button" id="filter-toggle" aria-expanded="false" aria-controls="filter-panel">Filtrlar <span>☷</span></button>
+        <label class="sort-field"><span class="sr-only">Saralash</span><select id="sort-select"><option value="popular">Mashhurligi</option><option value="newest">Eng yangi</option><option value="price-asc">Narx: arzonidan</option><option value="price-desc">Narx: qimmatidan</option></select></label>
+      </div>
+      <div class="catalog-layout">
+        <aside class="filter-panel" id="filter-panel" aria-label="Mahsulot filtrlari">
+          <div class="filter-title"><strong>Filtrlar</strong><button type="button" id="clear-filters">Tozalash</button></div>
+          <label class="filter-label" for="brand-filter">Brend</label><select id="brand-filter"><option value="">Barcha brendlar</option></select>
+          <span class="filter-label">Narx oralig'i <small>(so'm)</small></span><div class="price-inputs"><label><span class="sr-only">Minimal narx</span><input id="min-price" type="number" min="0" placeholder="Min"></label><span>—</span><label><span class="sr-only">Maksimal narx</span><input id="max-price" type="number" min="0" placeholder="Max"></label></div>
+          <label class="filter-label" for="ram-filter">RAM</label><select id="ram-filter"><option value="">Barchasi</option></select>
+          <label class="filter-label" for="storage-filter">Xotira</label><select id="storage-filter"><option value="">Barchasi</option></select>
+          <label class="filter-label" for="condition-filter">Holati</label><select id="condition-filter"><option value="">Barchasi</option><option value="new">Yangi</option><option value="used">Ishlatilgan</option></select>
+          <label class="check-filter"><input id="discount-filter" type="checkbox"><span>Faqat chegirmadagilar</span></label>
+          <label class="check-filter"><input id="new-filter" type="checkbox"><span>Faqat yangi modellar</span></label>
+        </aside>
+        <div class="catalog-results"><div class="result-summary"><span id="result-count">0 ta model</span><span>Demo katalog</span></div><div class="product-grid" id="catalog-grid" aria-live="polite"></div><p class="empty-state" id="empty-state" hidden>Qidiruvingizga mos telefon topilmadi. Filtrlarni o'zgartirib ko'ring.</p></div>
+      </div>
+    </section>
+
+    <section class="value-section">
+      <div class="section-shell"><div class="section-heading centered-heading"><div><span class="eyebrow">NEXORA FARQI</span><h2>Nima uchun NEXORA MOBILE?</h2><p>Yaxshi tanlov — ishonchli ma'lumotdan boshlanadi.</p></div></div>
+        <div class="value-grid">
+          <article class="value-card"><span class="value-icon">✳</span><h3>Keng tanlov</h3><p>Turli brend va ehtiyojlar uchun qurilmalar — hammasi bir katalogda.</p></article>
+          <article class="value-card"><span class="value-icon">⌕</span><h3>Oson solishtirish</h3><p>Texnik xususiyatlar va filtrlar yordamida mos modelni toping.</p></article>
+          <article class="value-card"><span class="value-icon">◇</span><h3>Shaffof demo</h3><p>Narxlar va buyurtma jarayoni namuna ekanini ochiq ko'rsatamiz.</p></article>
+          <article class="value-card"><span class="value-icon">↗</span><h3>Qulay tajriba</h3><p>Qidirish, sevimlilar va savatcha — qurilmangizning o'zida ishlaydi.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell faq-section">
+      <div class="section-heading centered-heading"><div><span class="eyebrow">KO'P SO'RALADIGAN SAVOLLAR</span><h2>Savolingiz bormi?</h2></div></div>
+      <div class="faq-list">
+        <details><summary>Saytdagi narxlar haqiqiymi?<span>+</span></summary><p>Yo'q. Ushbu loyiha frontend demo bo'lib, katalogdagi narxlar va chegirmalar faqat namuna. Ular haqiqiy bozor narxi, mavjud zaxira yoki sotuv taklifi hisoblanmaydi.</p></details>
+        <details><summary>Buyurtma bersam, mahsulot yuboriladimi?<span>+</span></summary><p>Yo'q. Buyurtma shakli faqat demo oqimini namoyish etadi va ma'lumotlar brauzeringizda saqlanadi. Hech qanday haqiqiy buyurtma, yetkazib berish yoki to'lov amalga oshmaydi.</p></details>
+        <details><summary>Demo akkauntim xavfsizmi?<span>+</span></summary><p>Bu haqiqiy autentifikatsiya tizimi emas. Parol demo saqlashдаа ochiq текстээр хадгалагдахгүй ч браузер дахь локал бүтэц хамгаалагдсан систем биш. Жинхэнэ үйлчилгээнд сервер болон аюулгүй сесс хэрэгтэй.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-main">
+      <div class="footer-about"><a class="brand-lockup" href="#home"><span class="brand-mark">N</span><span class="brand-name">NEXORA<span>MOBILE</span></span></a><p>Yangi avlod smartfonlarini o'rganish va tanlash uchun demo platforma.</p><span class="footer-demo">DEMO LOYIHA · HAQIQIY SAVDO EMAS</span></div>
+      <div class="footer-column"><h3>Kategoriyalar</h3><a href="#catalog">Barcha telefonlar</a><a href="#new">Yangi modellar</a><a href="#deals">Chegirmalar</a><button type="button" data-action="favorites">Sevimlilar</button></div>
+      <div class="footer-column"><h3>Brendlar</h3><a href="#brands">Mashhur brendlar</a><a href="#catalog" data-brand-link="Apple">Apple</a><a href="#catalog" data-brand-link="Samsung">Samsung</a><a href="#catalog" data-brand-link="Xiaomi">Xiaomi</a></div>
+      <div class="footer-column"><h3>Aloqa</h3><span>Telefon raqami: hozircha mavjud emas</span><a href="#contact" data-placeholder-link>Telegram — namuna</a><a href="#contact" data-placeholder-link>Instagram — namuna</a><span>Haqiqiy aloqa kanallari ulanmagan.</span></div>
+    </div>
+    <div class="section-shell footer-bottom"><span>© <span id="copyright-year"></span> NEXORA MOBILE. Demo loyiha.</span><div><a href="#privacy" data-info="privacy">Maxfiylik siyosati</a><a href="#terms" data-info="terms">Foydalanish shartlari</a></div><span class="footer-credit">O'zbekiston uchun yaratilgan</span></div>
+  </footer>
+
+  <dialog class="app-dialog" id="app-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-frame">
+      <button class="dialog-close" type="button" data-action="close-dialog" aria-label="Oynani yopish">×</button>
+      <div id="dialog-content"></div>
+    </div>
+  </dialog>
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
